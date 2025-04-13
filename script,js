@@ -1,0 +1,4 @@
+// Mostrar una alerta de bienvenida al cargar la página
+window.onload = () => {
+  alert("¡Bienvenido/a a mi portafolio!");
+};
