@@ -1,4 +1,23 @@
-// Mostrar una alerta de bienvenida al cargar la página
-window.onload = () => {
-  alert("¡Bienvenido/a a mi portafolio!");
+
+window.onload = async () => {
+  const contenedor = document.getElementById("proyectos");
+
+  try {
+    const res = await fetch("projects.json");
+    const proyectos = await res.json();
+
+    proyectos.forEach(proyecto => {
+      const item = document.createElement("div");
+      item.classList.add("proyecto");
+      item.innerHTML = `
+        <h3>${proyecto.nombre}</h3>
+        <p>${proyecto.descripcion}</p>
+        <small><strong>Tecnologías:</strong> ${proyecto.tecnologias}</small>
+        <hr/>
+      `;
+      contenedor.appendChild(item);
+    });
+  } catch (error) {
+    contenedor.innerHTML = "<p>Error al cargar los proyectos.</p>";
+  }
 };
