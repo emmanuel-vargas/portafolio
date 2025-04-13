@@ -1,0 +1,13 @@
+
+[
+  {
+    "nombre": "Gestor de Tareas",
+    "descripcion": "App web para gestionar tareas con filtros.",
+    "tecnologias": "HTML, CSS, JS"
+  },
+  {
+    "nombre": "Clon de Netflix",
+    "descripcion": "Interfaz de películas usando API de TMDB.",
+    "tecnologias": "React, CSS"
+  }
+]
