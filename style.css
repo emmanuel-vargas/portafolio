@@ -67,3 +67,35 @@ footer {
 .proyecto h3 {
   color: #333;
 }
+.proyecto-destacado {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto-destacado h3 {
+  color: #1a73e8;
+  margin-bottom: 10px;
+}
+
+.proyecto-destacado p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.proyecto-destacado a button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.proyecto-destacado a button:hover {
+  background-color: #155ab6;
+}
+
