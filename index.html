@@ -1,119 +1,85 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Portafolio</title>
-  <link rel="icon" type="image/png" href="favicon-32x32.png" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101211">
+  <title>Emmanuel Vargas | Systems Integration Engineer</title>
+  <meta name="description" content="Systems Integration Engineer specializing in enterprise integrations, automation, manufacturing systems and software development.">
+  <meta name="keywords" content="Emmanuel Vargas Flores, Systems Integration Engineer, Software Engineer, Automation, APIs, Manufacturing, AI, Costa Rica">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Emmanuel Vargas | Systems Integration Engineer">
+  <meta property="og:description" content="Building scalable integrations, automation systems and intelligent solutions for modern manufacturing.">
+  <meta property="og:url" content="https://emmanuel-vargas.github.io/portafolio/">
+  <meta property="og:locale" content="en_US">
+  <link rel="canonical" href="https://emmanuel-vargas.github.io/portafolio/">
+  <link rel="icon" type="image/png" href="./favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>¡Hola! Soy Emmanuel Vargas</h1>
-    <p>Software Developer</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Emmanuel Vargas, home">ev<span>.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <div class="nav-links" id="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Solutions</a><a href="#stack">Stack</a><a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></div>
+    </nav>
   </header>
-  <main>
-    <section>
-      <h2>Sobre mí</h2>
-      <p>
-        Ingeniero en Informática con experiencia en desarrollo de software utilizando React, Node.js y .NET. Apasionado por la creación de aplicaciones eficientes y centradas en el usuario. Experiencia en automatización con RPA (UiPath) y colaboración en equipos ágiles. Nivel de inglés C1.
-      </p>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COSTA RICA · ENGINEERING CONNECTED SYSTEMS</p>
+        <p class="intro">Hi, I’m Emmanuel Vargas Flores.</p>
+        <h1 id="hero-title">Systems<br>Integration<br><span>Engineer.</span></h1>
+        <p class="hero-description">Building scalable integrations, automation systems and intelligent solutions for modern manufacturing.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore Solutions <span aria-hidden="true">↗</span></a><a class="button secondary" href="./Emmanuel_Vargas_Public_Resume.pdf" download>Download CV <span aria-hidden="true">&#8595;</span></a></div>
+        <p class="availability-note">Open to relocation to the Netherlands and international travel.</p>
+        <div class="social-links"><a href="https://github.com/emmanuel-vargas" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/emmanuel-vargas-b73b6350/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a></div>
+      </div>
+      <div class="system-visual" aria-label="Conceptual diagram connecting enterprise systems, integrations, manufacturing and AI">
+        <div class="visual-top"><span class="mono">SYSTEM ARCHITECTURE</span><span class="mono">01 / 04</span></div>
+        <div class="architecture"><div class="node node-top"><span class="node-icon">⌘</span><div><small>CONNECT</small><strong>Enterprise systems</strong></div></div><div class="connector"></div><div class="node node-core"><span class="node-icon">⟷</span><div><small>ORCHESTRATE</small><strong>Integration layer</strong><span class="node-detail">APIs · Microservices · Automation</span></div><span class="status-dot"></span></div><div class="branches"><div class="node"><span class="node-icon">▥</span><div><small>OPERATE</small><strong>Manufacturing</strong></div></div><div class="node"><span class="node-icon">✳</span><div><small>ENHANCE</small><strong>Intelligence</strong></div></div></div></div>
+        <div class="visual-bottom"><span><span class="status-dot"></span> Built to work together</span><span class="mono">&lt;/&gt;</span></div>
+      </div>
+      <div class="focus-strip"><span class="mono">CORE FOCUS</span><span>Systems Integration</span><span>Automation</span><span>Software Engineering</span><span>AI</span></div>
     </section>
-
-    <section>
-      <h2>Habilidades Técnicas</h2>
-      <ul>
-        <li>Lenguajes: JavaScript, C#, PHP, Python, SQL</li>
-        <li>Frameworks: React, .NET Core</li>
-        <li>Bases de datos: MySQL, SQL Server</li>
-        <li>Herramientas: Git, VS Code</li>
-        <li>Prácticas: Scrum, Principios SOLID</li>
-      </ul>
+    <section class="section wrap about" id="about">
+      <div><p class="eyebrow">01 / ABOUT</p><h2>Connecting technology.<br><span>Creating impact.</span></h2></div>
+      <div class="about-copy"><p class="lead">Computer Engineer and Systems Integration Engineer specializing in enterprise applications, industrial automation and system integrations.</p><p>Experienced in designing software solutions that connect manufacturing systems, enterprise platforms and business processes through APIs, microservices and automation.</p><p>Focused on building scalable, maintainable and high-impact solutions for modern manufacturing environments.</p><div class="about-facts"><div><small>BASED IN</small><strong>Costa Rica</strong></div><div><small>CURRENTLY AT</small><strong>AVNA Costa Rica</strong></div><div><small>ENGLISH</small><strong>C1 proficiency</strong></div></div></div>
     </section>
-
-    <section>
-      <h2>Experiencia Profesional</h2>
-      <h3>AVNA (Intern - IT Support Technician)</h3>
-      <p>Febrero 2025 – Abril 2025</p>
-      <ul>
-        <li>Desarrollo de aplicación web con React.js y Node.js</li>
-        <li>Integración de APIs REST, validación de inputs, testing</li>
-      </ul>
-
-      <h3>Microvention (Automation Technician)</h3>
-      <p>Agosto 2019 – Julio 2022</p>
-      <ul>
-        <li>Desarrollo de software interno con .NET</li>
-        <li>Automatización de procesos con UiPath</li>
-      </ul>
+    <section class="section wrap" id="experience">
+      <p class="eyebrow">02 / EXPERIENCE</p><div class="section-heading"><h2>From the factory floor<br><span>to connected platforms.</span></h2><p>Industrial experience.<br>Software-driven solutions.</p></div>
+      <div class="timeline">
+        <article class="experience"><div class="experience-date"><span class="current-label">CURRENT ROLE</span><p>June 2025 — Present</p></div><div><h3>Systems Integration Engineer</h3><p class="company">AVNA Costa Rica</p><ul><li>Design and development of enterprise system integrations, internal applications and microservices.</li><li>Connect manufacturing platforms and enterprise systems through REST APIs.</li><li>Automate manufacturing processes and develop dashboards and operational systems.</li><li>Deploy applications on Linux servers.</li><li>Collaborate with Manufacturing, Engineering, IT and business teams.</li><li>Contribute to AI-assisted automation initiatives.</li></ul><div class="badges"><span>Systems Integration</span><span>REST APIs</span><span>Microservices</span><span>Linux</span></div></div></article>
+        <article class="experience"><div class="experience-date"><span class="mono">PREVIOUS ROLE</span><p>August 2019 — July 2022</p></div><div><h3>Automation Technician</h3><p class="company">MicroVention</p><ul><li>Industrial and process automation for manufacturing environments.</li><li>Develop manufacturing applications with .NET and C#.</li><li>Build UiPath RPA automations and work with AGV systems.</li><li>Integrate Teklynx with manufacturing workflows.</li></ul><div class="badges"><span>C# / .NET</span><span>UiPath</span><span>AGV Systems</span><span>Teklynx</span></div></div></article>
+      </div>
     </section>
-
-    <section>
-      <h2>Proyectos</h2>
-      <div id="proyectos"></div>
-      <section>
-  <h2>Proyectos CRUD</h2>
-
-  <div class="proyecto-destacado">
-    <h3>CRUD de Usuarios (React)</h3>
-    <p>
-      Aplicación web desarrollada en React que permite crear, editar y eliminar usuarios. 
-      Proyecto construido como parte de mi portafolio para demostrar habilidades en desarrollo frontend.
-    </p>
-     <a href="https://github.com/emmanuel-vargas/crud-usuarios-react" target="_blank">
-    <button>Ver Código en GitHub</button>
-  </a>
-    <a href="https://emmanuel-vargas.github.io/crud-usuarios-react/" target="_blank">
-      <button>Ver Proyecto</button>
-    </a>
-  </div>
-<div class="proyecto-destacado">
-  <h3>CRUD de Usuarios (ASP.NET Core MVC)</h3>
-  <p>
-    Aplicación web construida con ASP.NET Core MVC que permite gestionar usuarios con operaciones CRUD. Incluye interfaz con Bootstrap y patrón MVC para separar responsabilidades.
-  </p>
-  <a href="https://github.com/emmanuel-vargas/CrudUsuariosMVC" target="_blank">
-    <button>Ver Código en GitHub</button>
-  </a>
-  <a href="https://crudusuariosmvc.onrender.com" target="_blank">
-    <button>Ver Proyecto</button>
-  </a>
-</div>    
-        <div class="proyecto-destacado">
-  <h3>CRUD de Usuarios (Python-flask)</h3>
-  <p>
-    Aplicación web construida con Flask que permite gestionar usuarios mediante operaciones CRUD. Utiliza Bootstrap para la interfaz de usuario y organiza la lógica de negocio utilizando Python.
-  </p>
-  <a href="https://github.com/emmanuel-vargas/flask-crud-app" target="_blank">
-    <button>Ver Código en GitHub</button>
-  </a>
-  <a href="https://flask-crud-app-uwtb.onrender.com" target="_blank">
-    <button>Ver Proyecto</button>
-  </a>
-</div> 
-</section> 
-      <section>
-      <h2>Proyectos con AI</h2>
-      <div class="proyecto-destacado">
-    <h3>ChatBot backend (Java)</h3>
-    <p>
-      Aplicación web desarrollada en Java que permite hacer consultas al API gratuito de OpenAI. 
-    </p>
-     <a href="https://github.com/emmanuel-vargas/chatbot-backend" target="_blank">
-    <button>Ver Código en GitHub</button>
-  </a>
-    <a href="https://emmanuel-vargas.github.io/crud-usuarios-react/" target="_blank">
-      <button>Ver Proyecto</button>
-    </a>
-  </div>
-        </section> 
+    <section class="section wrap" id="projects">
+      <p class="eyebrow">03 / CAPABILITIES</p><div class="section-heading"><h2>Solutions I Can Build<span>.</span></h2><p>Practical capabilities across software,<br>integration and automation.</p></div>
+      <div class="project-grid">
+        <article class="project featured"><div class="project-art architecture-art" aria-hidden="true"><span>ENTERPRISE</span><div class="mini-flow"><i>Apps</i><b>⟷</b><i>APIs</i><b>⟷</b><i>Systems</i></div><small>CONNECTED BY DESIGN</small></div><div class="project-body"><p class="project-category">01 / ENTERPRISE INTEGRATION</p><h3>Systems Integration</h3><p>Connect business applications through REST APIs and microservices, bringing data and workflows together across systems.</p><div class="badges"><span>React</span><span>Node.js</span><span>.NET</span><span>SQL</span><span>REST APIs</span><span>Linux</span></div></div></article>
+        <article class="project"><div class="project-art monitoring-art" aria-hidden="true"><span>PRODUCTION VISIBILITY</span><div class="signal-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>CONCEPTUAL VISUALIZATION</small></div><div class="project-body"><p class="project-category">02 / MANUFACTURING</p><h3>Manufacturing Dashboards</h3><p>Build dashboards for production monitoring and operational visibility, turning data into clear, actionable information.</p><div class="badges"><span>Monitoring</span><span>Dashboards</span></div></div></article>
+        <article class="project"><div class="project-art ai-art" aria-hidden="true"><span>LOCAL INTELLIGENCE</span><div class="ai-orbit">✳</div><small>CONTEXT → INTELLIGENCE</small></div><div class="project-body"><p class="project-category">03 / ARTIFICIAL INTELLIGENCE</p><h3>AI Assistants</h3><p>Integrate language models into business applications to support information retrieval and everyday workflows.</p><div class="badges"><span>Ollama</span><span>LLMs</span><span>Node.js</span><span>APIs</span></div></div></article>
+        <article class="project compact"><div class="project-body"><p class="project-category">04 / WORKFLOW AUTOMATION</p><h3>Process Automation</h3><p>Automate repetitive tasks, data collection and application workflows to reduce manual effort and improve consistency.</p><div class="badges"><span>Process Automation</span><span>Tracking</span></div></div></article>
+        <article class="project compact"><div class="project-body"><p class="project-category">05 / OPERATIONAL TRACKING</p><h3>Tracking Systems</h3><p>Develop solutions for purchase orders, materials and operational workflows, with organized records and clear status tracking.</p><div class="badges"><span>Manufacturing</span><span>Data Integration</span></div></div></article>
+        <article class="project compact"><div class="project-body"><p class="project-category">06 / CONNECTED OPERATIONS</p><h3>Industrial IoT</h3><p>Connect sensors with monitoring and reporting applications to collect measurements and make equipment activity easier to understand.</p><div class="badges"><span>IoT</span><span>Sensors</span><span>Automation</span></div></div></article>
+      </div>
+      <p class="project-note">These capabilities describe the types of solutions I can develop. Visuals are conceptual.</p>
+      <details class="personal-projects" id="personal-projects" open><summary>Personal Projects <span>React · ASP.NET Core · Python · Java</span></summary><div class="personal-grid"><a href="https://github.com/emmanuel-vargas/crud-usuarios-react" target="_blank" rel="noopener noreferrer">React User Manager <span>GitHub ↗</span></a><a href="https://github.com/emmanuel-vargas/CrudUsuariosMVC" target="_blank" rel="noopener noreferrer">ASP.NET Core MVC CRUD <span>GitHub ↗</span></a><a href="https://github.com/emmanuel-vargas/flask-crud-app" target="_blank" rel="noopener noreferrer">Flask User Manager <span>GitHub ↗</span></a><a href="https://github.com/emmanuel-vargas/chatbot-backend" target="_blank" rel="noopener noreferrer">Java Chatbot Backend <span>GitHub ↗</span></a></div></details>
     </section>
+    <section class="section wrap" id="stack"><p class="eyebrow">04 / TECH STACK</p><div class="section-heading"><h2>The tools behind<br><span>the solutions.</span></h2><p>From application code<br>to production infrastructure.</p></div><div class="stack-grid">
+      <article class="stack-card"><h3><span>01</span> Languages</h3><div class="badges"><span>C#</span><span>JavaScript</span><span>Python</span><span>SQL</span><span>Java</span><span>C++</span><span>PHP</span></div></article>
+      <article class="stack-card"><h3><span>02</span> Frontend</h3><div class="badges"><span>React</span><span>Vite</span><span>HTML</span><span>CSS</span></div></article>
+      <article class="stack-card"><h3><span>03</span> Backend</h3><div class="badges"><span>.NET</span><span>ASP.NET Core</span><span>Node.js</span><span>Express</span></div></article>
+      <article class="stack-card"><h3><span>04</span> Databases</h3><div class="badges"><span>SQL Server</span><span>MySQL</span><span>MariaDB</span><span>PostgreSQL</span></div></article>
+      <article class="stack-card"><h3><span>05</span> Integrations</h3><div class="badges"><span>REST APIs</span><span>Microsoft Graph</span><span>Dataverse</span><span>Plex</span><span>FedEx API</span><span>UPS API</span></div></article>
+      <article class="stack-card"><h3><span>06</span> Infrastructure</h3><div class="badges"><span>Git</span><span>GitHub</span><span>Docker</span><span>Linux</span><span>Ubuntu Server</span><span>Nginx</span><span>PM2</span></div></article>
+      <article class="stack-card stack-wide"><h3><span>07</span> Automation &amp; AI</h3><div class="badges"><span>UiPath</span><span>Industrial Automation</span><span>AI Agents</span><span>LLM Integration</span><span>Ollama</span></div></article>
+    </div></section>
+    <section class="section wrap" id="education"><p class="eyebrow">05 / EDUCATION</p><div class="education-grid"><article><h2>A foundation<br><span>for what’s next.</span></h2><h3>Bachelor’s Degree in Computer Engineering</h3><p>Universidad Estatal a Distancia (UNED) · Costa Rica</p><span class="accreditation">SINAES Accredited Program</span></article><article class="development"><span class="mono">CONTINUOUS LEARNING</span><h3>Certifications &amp;<br>Professional Development</h3><p>Courses and certifications will be added here.</p><!-- Add verified courses here with issuer, date and credential link. --></article></div></section>
+    <section class="contact-section" id="contact"><div class="wrap"><p class="eyebrow">06 / LET’S CONNECT</p><h2>Great systems start<br>with a <span>conversation.</span></h2><p>Let’s talk about systems integration, software engineering<br>and automation opportunities.</p><a class="email-link" href="mailto:emmetsan@gmail.com">emmetsan@gmail.com <span aria-hidden="true">↗</span></a><div class="social-links"><a href="https://github.com/emmanuel-vargas" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/emmanuel-vargas-b73b6350/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a></div></div></section>
   </main>
-  <footer>
-    <p>Contacto: emmetsan@gmail.com</p>
-    <p>Teléfono: +506 86298881</p>
-  </footer>
-  <script src="script.js"></script>
+  <footer class="wrap footer"><a class="brand" href="#home">ev<span>.</span></a><p>© <span id="year">2026</span> Emmanuel Vargas Flores</p><span>Built with purpose. Based in Costa Rica.</span><a href="#home">Back to top ↑</a></footer>
 </body>
 </html>
