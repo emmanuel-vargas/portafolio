@@ -16,3 +16,12 @@ Verified on September 7, 2026 using headless Microsoft Edge on Windows.
 Responsive checks used browser viewport emulation, not physical iPhone/Android devices or Safari. Email retains the address from the original site; delivery was not tested. LinkedIn uses the URL in the supplied resume; automated verification received HTTP 999, so profile availability was not confirmed. The public CV has two pages and omits internal system names. These checks describe local validation before publication.
 
 Local test scripts, screenshots and the detailed report are in `.verification/` (Git-ignored).
+
+## React projects
+
+- Production Vite build passed; the generated site uses relative asset paths under `demos/`.
+- Seven Node tests passed for mapping, validation, totals, retries, purchase-order transitions, CSV protection and machine-stop simulation.
+- Browser flows passed for JSON validation and retry, production start/pause/stop/restore and alert acknowledgment, purchase-order creation and all status transitions, persistence across refresh, empty search results and CSV download.
+- All three demos were checked at 1920, 1366, 768, 390 and 360 px with no page-level horizontal overflow. Wide data tables scroll within their own containers on mobile.
+- Unknown hash routes display a recovery screen. No browser exceptions or HTTP error responses occurred in the final demo checks.
+- Desktop and mobile screenshots were visually reviewed. Data is synthetic, integration responses are simulated and procurement storage is browser-local.

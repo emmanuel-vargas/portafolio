@@ -1126,3 +1126,9 @@ h1 span {
     display:none;
   }
 }
+
+.react-showcase { margin: 60px 0 28px; }
+.demo-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; margin-top: 24px; font-size: .7rem; }
+.react-showcase .project-grid { align-items: stretch; }
+.react-showcase .project-body { display: flex; flex-direction: column; height: 100%; }
+.react-showcase .demo-actions { margin-top: auto; padding-top: 24px; }

@@ -2,6 +2,10 @@
 
 English-language portfolio for systems integration, software engineering and automation opportunities. Plain HTML, CSS and JavaScript; no build step or framework required.
 
+## Interactive React projects
+
+The portfolio includes three original React demos: Integration Lab, Production Pulse and Procurement Desk. Their source, setup instructions and engineering notes are in [react-projects/README.md](react-projects/README.md). The compiled demos live in `demos/`; the portfolio itself still requires no build. To update demos, run `npm ci`, `npm test` and `npm run build` inside `react-projects`, then include both source and generated output in the publication.
+
 ## Preview
 
 Open `index.html` directly, or run `python -m http.server 8000` and visit `http://localhost:8000`. Fonts use Google Fonts with system fallbacks. All content remains available without JavaScript.
