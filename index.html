@@ -14,7 +14,7 @@
   <meta property="og:locale" content="en_US">
   <link rel="canonical" href="https://emmanuel-vargas.github.io/portafolio/">
   <link rel="icon" type="image/png" href="./favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=projects-20260908">
   <script src="./script.js" defer></script>
 </head>
 <body>
@@ -23,7 +23,7 @@
     <nav class="nav wrap" aria-label="Main navigation">
       <a class="brand" href="#home" aria-label="Emmanuel Vargas, home">ev<span>.</span></a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" hidden>Menu <span aria-hidden="true">☰</span></button>
-      <div class="nav-links" id="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Solutions</a><a href="#stack">Stack</a><a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></div>
+      <div class="nav-links" id="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#solutions">Solutions</a><a href="#projects">Projects</a><a href="#stack">Stack</a><a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></div>
     </nav>
   </header>
   <main id="main">
@@ -33,7 +33,7 @@
         <p class="intro">Hi, I’m Emmanuel Vargas Flores.</p>
         <h1 id="hero-title">Systems<br>Integration<br><span>Engineer.</span></h1>
         <p class="hero-description">Building scalable integrations, automation systems and intelligent solutions for modern manufacturing.</p>
-        <div class="hero-actions"><a class="button primary" href="#projects">Explore Solutions <span aria-hidden="true">↗</span></a><a class="button secondary" href="./Emmanuel_Vargas_Public_Resume.pdf" download>Download CV <span aria-hidden="true">&#8595;</span></a></div>
+        <div class="hero-actions"><a class="button primary" href="#projects">View Projects <span aria-hidden="true">↗</span></a><a class="button secondary" href="./Emmanuel_Vargas_Public_Resume.pdf" download>Download CV <span aria-hidden="true">&#8595;</span></a></div>
         <p class="availability-note">Open to relocation to the Netherlands and international travel.</p>
         <div class="social-links"><a href="https://github.com/emmanuel-vargas" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/emmanuel-vargas-b73b6350/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a></div>
       </div>
@@ -55,7 +55,7 @@
         <article class="experience"><div class="experience-date"><span class="mono">PREVIOUS ROLE</span><p>August 2019 — July 2022</p></div><div><h3>Automation Technician</h3><p class="company">MicroVention</p><ul><li>Industrial and process automation for manufacturing environments.</li><li>Develop manufacturing applications with .NET and C#.</li><li>Build UiPath RPA automations and work with AGV systems.</li><li>Integrate Teklynx with manufacturing workflows.</li></ul><div class="badges"><span>C# / .NET</span><span>UiPath</span><span>AGV Systems</span><span>Teklynx</span></div></div></article>
       </div>
     </section>
-    <section class="section wrap" id="projects">
+    <section class="section wrap" id="solutions">
       <p class="eyebrow">03 / CAPABILITIES</p><div class="section-heading"><h2>Solutions I Can Build<span>.</span></h2><p>Practical capabilities across software,<br>integration and automation.</p></div>
       <div class="project-grid">
         <article class="project featured"><div class="project-art architecture-art" aria-hidden="true"><span>ENTERPRISE</span><div class="mini-flow"><i>Apps</i><b>⟷</b><i>APIs</i><b>⟷</b><i>Systems</i></div><small>CONNECTED BY DESIGN</small></div><div class="project-body"><p class="project-category">01 / ENTERPRISE INTEGRATION</p><h3>Systems Integration</h3><p>Connect business applications through REST APIs and microservices, bringing data and workflows together across systems.</p><div class="badges"><span>React</span><span>Node.js</span><span>.NET</span><span>SQL</span><span>REST APIs</span><span>Linux</span></div></div></article>
@@ -66,9 +66,11 @@
         <article class="project compact"><div class="project-body"><p class="project-category">06 / CONNECTED OPERATIONS</p><h3>Industrial IoT</h3><p>Connect sensors with monitoring and reporting applications to collect measurements and make equipment activity easier to understand.</p><div class="badges"><span>IoT</span><span>Sensors</span><span>Automation</span></div></div></article>
       </div>
       <p class="project-note">These capabilities describe the types of solutions I can develop. Visuals are conceptual.</p>
+    </section>
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
       <div class="react-showcase" id="personal-projects">
         <p class="eyebrow">PERSONAL PROJECTS / INTERACTIVE REACT DEMOS</p>
-        <div class="section-heading"><h2>Explore the working demos<span>.</span></h2><p>Original portfolio demonstrations.<br>Fictional data. Real interactions.</p></div>
+        <div class="section-heading"><h2 id="projects-title">Explore the working demos<span>.</span></h2><p>Original portfolio demonstrations.<br>Fictional data. Real interactions.</p></div>
         <div class="project-grid">
           <article class="project"><div class="project-body"><p class="project-category">01 / API INTEGRATION</p><h3>Integration Lab</h3><p>Transform order JSON into a validated data contract. Inspect calculated totals, simulate failed deliveries and recover with retries.</p><div class="badges"><span>React</span><span>JSON Validation</span><span>Data Mapping</span></div><div class="demo-actions"><a class="button primary" href="./demos/#integration">Try demo &#8599;</a><a href="https://github.com/emmanuel-vargas/portafolio/blob/main/react-projects/src/IntegrationLab.jsx" target="_blank" rel="noopener noreferrer">Source code &#8599;</a></div></div></article>
           <article class="project"><div class="project-body"><p class="project-category">02 / PRODUCTION MONITORING</p><h3>Production Pulse</h3><p>Explore a live production simulation. Filter work cells, monitor throughput, trigger a machine stop and acknowledge alerts.</p><div class="badges"><span>React</span><span>SVG Charts</span><span>Simulation</span></div><div class="demo-actions"><a class="button primary" href="./demos/#production">Try demo &#8599;</a><a href="https://github.com/emmanuel-vargas/portafolio/blob/main/react-projects/src/ProductionPulse.jsx" target="_blank" rel="noopener noreferrer">Source code &#8599;</a></div></div></article>
